@@ -70,12 +70,14 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    flexWrap: "wrap",
+    flexWrap: "nowrap",
     gap: theme.spacing.sm,
   },
 
   link: {
-    width: 84,
+    flex: 1,
+    maxWidth: 84,
+    minWidth: 0,
     height: 68,
     alignItems: "center",
     gap: 4,

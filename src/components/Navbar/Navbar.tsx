@@ -6,7 +6,11 @@ import { Image, Pressable, Text, View } from "react-native";
 import { styles } from "./Navbar.styles";
 
 const navigationItems = [
-  { id: "home", label: "Home", icon: { ios: "house", android: "home", web: "home" } },
+  {
+    id: "home",
+    label: "Home",
+    icon: { ios: "house", android: "home", web: "home" },
+  },
   {
     id: "calendar",
     label: "Calendar",
@@ -16,6 +20,11 @@ const navigationItems = [
     id: "courses",
     label: "Courses",
     icon: { ios: "book", android: "menu_book", web: "menu_book" },
+  },
+  {
+    id: "user",
+    label: "User",
+    icon: { ios: "person", android: "person", web: "person" },
   },
 ] as const;
 

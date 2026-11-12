@@ -74,3 +74,5 @@ coverage/
 *.swp
 *.swo
 Thumbs.db
+
+./UI-mockup
